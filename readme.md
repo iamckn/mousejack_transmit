@@ -147,3 +147,7 @@ The folder **logs** contains various pre-saved packets for various keyboard oper
 **Shell.log** is for exploitation of a Windows machine by running a powershell one-liner which connects back to the attacker machine.  
 
 The file **keys.log** serves as a reference where various key presses and combinations are mapped to their equivalent packets.
+
+# Demo
+
+A demo of exploiting a Windows machine can be found here https://www.youtube.com/watch?v=YLzUeK1IvJs&feature=youtu.be
