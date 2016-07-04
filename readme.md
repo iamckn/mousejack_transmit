@@ -1,3 +1,8 @@
+This is code extending the mousejack tools https://github.com/RFStorm/mousejack
+Replay/transmit tools have been added to the original tools. 
+POC packets based on a **Logitech USB receiver, model number C-U0011** are included in the logs folder.
+
+
 #Usage
 
 ## scanner
