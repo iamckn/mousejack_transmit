@@ -1,7 +1,7 @@
 This is code extending the mousejack tools https://github.com/RFStorm/mousejack.  
 Replay/transmit tools have been added to the original tools.  
-POC packets based on a **Logitech USB receiver, model number C-U0011** are included in the logs folder.  
-
+POC packets based on a **Logitech Wireless Combo MK220 which consists of a K220 wireless keyboard and an M150 wireless mouse** are included in the logs folder.  
+More details available here https://www.ckn.io/blog/2016/07/09/hijacking-wireless-mice-and-keyboards/
 
 #Usage
 
@@ -54,10 +54,10 @@ optional arguments:
   -r RETRIES, --retries RETRIES              Auto retry limit, accepts [0,15]
 ```
 
-Sniff packets from address 61:49:66:82:03 on all channels and save them to output.log
+Sniff packets from address 8C:D3:0F:3E:B4 on all channels and save them to output.log
 
 ```
-./nrf24-sniffer.py -a 61:49:66:82:03 -o logs/output.log
+./nrf24-sniffer.py -a 8C:D3:0F:3E:B4 -o logs/output.log
 ```
 
 ## replay/transmit
@@ -79,10 +79,10 @@ optional arguments:
   -r RETRIES, --retries RETRIES              Auto retry limit, accepts [0,15]
 ```
 
-Send packets from file keystroke.log to address 61:49:66:82:03 on hopping channel 
+Send packets from file keystroke.log to address 8C:D3:0F:3E:B4 on hopping channel 
 
 ```
-./nrf24-replay.py -a 61:49:66:82:03 -i logs/keystroke.log
+./nrf24-replay.py -a 8C:D3:0F:3E:B4 -i logs/keystroke.log
 ```
 
 ## network mapper
